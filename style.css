@@ -23,6 +23,12 @@ body{
     padding: 1rem 1rem;
     outline: 1px solid hsl(0, 0%, 7%);
     border-radius: 1rem;
+    cursor: pointer;
+
+    &:hover{
+        margin: 0 1rem 1rem 0;
+        transition: all 200ms ease-in-out;
+    }
 
 
     img{
@@ -34,9 +40,7 @@ body{
             font-size:x-large;
 
             &:hover{
-                color: var(--foreground);
-                transition: all 200ms ease-in-out;
-                cursor: pointer;
+                    color: var(--foreground);
             }
         }
 
