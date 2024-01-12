@@ -32,6 +32,12 @@ body{
     .card-text{
         h1{
             font-size:x-large;
+
+            &:hover{
+                color: var(--foreground);
+                transition: all 200ms ease-in-out;
+                cursor: pointer;
+            }
         }
 
         .card-date{
